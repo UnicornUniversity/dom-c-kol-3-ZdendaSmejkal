@@ -8,10 +8,10 @@
  */
 
 const pohlavi = ["male", "female"];
-const krestniZena = ["Anežka", "Miroslava", "Dana", "Karolína", "Jana", "Pavla", "Iva", "Anna", "Zdeňka", "Melisa", "Gertruda", "Liliana", "Žofie", "Anděla", "Dorota", "Angelika", "Bára", "Iveta", "Ivana", "Cecilie", "Dita", "Evženie", "Fiona", "Ráchel", "Gabriela", "Hana", "Jitka", "Kateřina", "Lucie", "Monika", "Natálie", "Oldřiška", "Petra", "Radana", "Sylvie", "Tamara", "Uršula", "Vendula", "Xenie", "Zita"];
-const krestniMuz = ["Adam", "Augustýn", "Bořek", "Břetislav", "Ciril", "Ctirad", "David", "Daniel", "Emil", "Evžen", "Florian", "František", "Gustav", "Herald", "Hynek", "Ignác", "Ivan", "Jan", "Jeroným", "Jindřich", "Karel", "Kvído", "Květoslav", "Luboš", "Libor", "Michal", "Milan", "Norbert", "Ondřej","Oldřich", "Pavel", "Petr", "Roman", "Radek", "Stanislav", "Sebastian", "Tomáš", "Tadeáš", "Tedd", "Václav"];
-const prijmZena  = ["Albertová", "Ankrová", "Akhová", "Brožková", "Boušková", "Ctiradová", "Camrová", "Davidová","Drobná", "Drahotová", "Eliášová", "Erbová", "Francová", "Fialová", "Gustavová", "Gardová", "Grossová", "Havelková", "Havlová", "Habrtová", "Chechtavá", "Charvátová", "Chechtavá", "Chocholoušková", "Chomoutová", "Chobotová", "Ignácová", "Irvinová", "Jandová", "Jasná", "Karmínová", "Klapová", "Kotková", "Ludvíková", "Litavská", "Motavá", "Nývltová", "Obermeierová", "Pekelná", "Radostná"];
-const prijmMuz = ["Akh", "Augusta", "Brožek","Benda", "Candát", "Camr", "Cmrnda", "Drobný", "Dufek", "Drahota", "Eliáš", "Egrt", "Franc", "Fiala", "Goliáš", "Gross", "Grota", "Hamuta", "Havel", "Hlodavec", "Chrochta", "Charvát", "Chocholoušek", "Chomout", "Ivánek", "Igor", "Irvin", "Janda", "Jepota","Krasinský", "Klouzek", "Lebeda", "Manuel", "Nuvický", "Nekroman", "Obermeier", "Obora", "Pěnkava", "Rychtář", "Rabyně"];
+const krestniZena = ["Anežka", "Miroslava", "Dana", "Karolína", "Jana", "Pavla", "Iva", "Anna", "Zdeňka", "Melisa", "Gertruda", "Liliana", "Žofie", "Anděla", "Dorota", "Angelika", "Bára", "Iveta", "Ivana", "Cecilie", "Dita", "Evženie", "Fiona", "Ráchel", "Gabriela", "Hana", "Jitka", "Kateřina", "Lucie", "Monika", "Natálie", "Oldřiška", "Petra", "Josefína", "Alena", "Lenka", "Jaroslava", "Marie", "Vilemína", "Františka", "Eva", "Karolína", "Romana", "Diana", "Radana", "Sylvie", "Tamara", "Uršula", "Vendula", "Xenie", "Zita"];
+const krestniMuz = ["Adam", "Augustýn", "Bořek", "Břetislav", "Ciril", "Ctirad", "David", "Daniel", "Emil", "Evžen", "Florian", "František", "Gustav", "Herald", "Hynek", "Ignác", "Ivan", "Jan", "Jeroným", "Jindřich", "Karel", "Kvído", "Květoslav", "Luboš", "Libor", "Michal", "Milan", "Norbert", "Ondřej","Oldřich", "Pavel", "Petr", "Roman", "Radek", "Stanislav", "Sebastian", "Tomáš", "Tadeáš", "Tedd", "Václav", "Miloslav", "Miroslav", "Zbyněk", "Zdislav", "Jeroným", "Jeník", "John", "Květoslav", "Soběslav", "Milan", "Věnceslav" ];
+const prijmZena  = ["Albertová", "Ankrová", "Akhová", "Brožková", "Boušková", "Ctiradová", "Camrová", "Davidová","Drobná", "Drahotová", "Eliášová", "Erbová", "Francová", "Fialová", "Gustavová", "Gardová", "Grossová", "Havelková", "Havlová", "Habrtová", "Chechtavá", "Charvátová", "Chechtavá", "Chocholoušková", "Chomoutová", "Chobotová", "Ignácová", "Irvinová", "Jandová", "Novotná", "Nová", "Newmanová", "Dvořáková", "Černá", "Krejčí", "Horáková", "Němcová", "Kučerová", "Pospíšilová", "Rychtářová", "Jasná", "Karmínová", "Klapová", "Kotková", "Ludvíková", "Litavská", "Motavá", "Nývltová", "Obermeierová", "Pekelná", "Radostná"];
+const prijmMuz = ["Akh", "Augusta", "Brožek","Benda", "Candát", "Camr", "Cmrnda", "Drobný", "Dufek", "Drahota", "Eliáš", "Egrt", "Franc", "Fiala", "Goliáš", "Gross", "Grota", "Hamuta", "Havel", "Hlodavec", "Chrochta", "Charvát", "Chocholoušek", "Chomout", "Ivánek", "Igor", "Irvin", "Janda", "Jepota","Krasinský", "Klouzek", "Lebeda", "Manuel", "Nuvický", "Nekroman", "Novák", "Novotný", "Nový", "Newman", "Dvořák", "Černý", "Krejčí", "Horák", "Němec", "Kučera", "Pospíšil", "Obermeier", "Obora", "Pěnkava", "Rychtář", "Rabyně"];
 
 const dtoIn = {
   count: 2,
@@ -21,8 +21,8 @@ const dtoIn = {
   }
 };
 
-export function randomDo40() {
-  let dtoOut = Math.floor(Math.random()*40); // nahodne cislo do 40 (pro nahodny vyber jmena a prijmeni ze 40 moznosti vyse)
+export function randomDo40() { //puvodne 40, ale to bylo malo pro testy, proto jsem zvysil na 51
+  let dtoOut = Math.floor(Math.random()*51); // nahodne cislo do 51 (pro nahodny vyber jmena a prijmeni z 51 moznosti vyse) 
   return dtoOut;
 }
 
